@@ -1,0 +1,92 @@
+/* App.css */
+
+/* Container Styles */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+/* Input Styles */
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  outline: none;
+  width: calc(100% - 24px); /* Full width minus padding */
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #0056b3;
+}
+
+/* Button Styles */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  font-size: 14px;
+}
